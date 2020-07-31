@@ -970,7 +970,7 @@ input:checked + .container > .floating + .block,
   </div>
   <div class="points"></div>
   <label class="start" for="start" tabindex="-1">
-        PURE CSS<br>STACK
+        From Avengers With Love<br>- HCT -
     </label>
   <button type="reset" tabindex="-1">
         CLICK OR TAP<br>
