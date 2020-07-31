@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'welcome');
+Route::get('puzzle-game', 'PuzzleController@index')->name('puzzle_game.index');
