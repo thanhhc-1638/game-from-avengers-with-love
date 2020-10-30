@@ -13,5 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'welcome');
+Route::get('/', 'HomeController@index')->name('home.index');
 Route::get('puzzle-game', 'PuzzleController@index')->name('puzzle_game.index');
+Route::get('relax', 'RelaxController@index')->name('relax.index');
