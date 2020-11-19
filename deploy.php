@@ -36,7 +36,7 @@ add('writable_dirs', [
 ]);
 
 // Hosts
-host('139.180.153.116')
+host('45.76.190.30')
     ->user('deploy')
     ->stage('production')
     ->set('deploy_path', '~/{{application}}')
@@ -83,6 +83,6 @@ task('deploy', [
 after('deploy:failed', 'deploy:unlock');
 
 // Migrate database before symlink new release.
-before('deploy:symlink', 'artisan:migrate');
+// before('deploy:symlink', 'artisan:migrate');
 
 desc('Deploy done!');
