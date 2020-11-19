@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    HCT
+                    HCT Ahihi
                 </div>
 
                 <div class="links">
